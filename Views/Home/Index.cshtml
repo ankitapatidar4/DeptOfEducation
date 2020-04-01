@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Department of Education</h2>
+<hr />
+
+<div>
+    <p>
+        This application let's you fetch data from Department of Education via their public <a href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">API</a>.
+        <br />
+        <br />
+        In order to use this application, all you need to do is get the API key from this <a href="https://api.data.gov/signup/" target="_blank">page</a>. Signup using your usf mail, the api key will be sent to you through email. Copy the key and paste it on line no 15 in APIHandlerManager/APIHandler.cs and re run the application.
+        <br />
+        <br />
+        The <a asp-area="" asp-controller="Home" asp-action="Scores">Department of Education</a> tab fetches parks data from the
+            <a href="https://developer.nps.gov/">Department of Education Service API </a> and displays the results.
+        <br />
+        <br />
+    </p>
+
+    <p>
+        Following learning objectives are fulfilled -
+        <ul>
+            <li>Connection to REST API using API key.</li>
+            <li>Consuming the data from the REST API.</li>
+        </ul>
+    </p>
+</div>
